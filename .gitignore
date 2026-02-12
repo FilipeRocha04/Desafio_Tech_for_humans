@@ -1,0 +1,20 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos de configuração locais
+.env
+
+# Cache e arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dados sensíveis ou temporários
+
+
+
+# VS Code
+.vscode/
+
