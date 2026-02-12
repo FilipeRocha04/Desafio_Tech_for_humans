@@ -206,11 +206,4 @@ python src/graph/graph.py
 > **Cliente:** "Quanto tá o dólar?"  
 > **Sistema:** "O dólar está cotado a R$ 5,45. Posso ajudar com mais alguma conversão?"
 
----
-
-
----
-
-
----
 
