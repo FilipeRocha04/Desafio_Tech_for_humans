@@ -289,14 +289,7 @@ Acesse pelo navegador em [http://localhost:8501](http://localhost:8501).
 ```sh
 python src/graph/graph.py
 ```
-
-
-### 7. (Opcional) Execute no terminal
-
-```sh
-python src/graph/graph.py
-```
-## 8. Como Testar
+## 7. Como Testar
 
 Para iniciar o atendimento, é necessário realizar a autenticação do cliente.
 
