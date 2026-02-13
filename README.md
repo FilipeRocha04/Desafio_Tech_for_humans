@@ -157,7 +157,7 @@ O **handoff** é o mecanismo que permite a transferência fluida do atendimento 
 - Apresentação de fontes confiáveis para cotação.
 - Encerramento de atendimento de câmbio.
 
-### 5. Supervisor Inteligente
+### 5.🎯Supervisor Inteligente
 - Análise de mensagens do usuário.
 - Roteamento automático para o agente mais adequado.
 - Detecção de intenção de encerramento.
