@@ -296,9 +296,6 @@ python src/graph/graph.py
 ```sh
 python src/graph/graph.py
 ```
-
----
-
 ## 8. Como Testar
 
 Para iniciar o atendimento, é necessário realizar a autenticação do cliente.
