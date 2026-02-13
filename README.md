@@ -129,29 +129,29 @@ O **handoff** é o mecanismo que permite a transferência fluida do atendimento 
 
 ---
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
-### 1. Triagem e Autenticação
+### 1.🔐 Triagem e Autenticação
 - Saudação inicial personalizada.
 - Solicitação de CPF e data de nascimento (aceita variações de formato).
 - Até 2 tentativas de autenticação (configurável).
 - Encerramento automático após tentativas excedidas.
 - Identificação da necessidade do cliente e roteamento para o agente adequado.
 
-### 2. Crédito
+### 2.💳 Crédito
 - Consulta de limite e score.
 - Solicitação de aumento de limite (validação automática pelo score).
 - Registro de todas as solicitações no histórico.
 - Resposta clara sobre aprovação ou rejeição, com motivo detalhado.
 - Encaminhamento para entrevista de crédito, se necessário.
 
-### 3. Entrevista de Crédito
+### 3.📝 Entrevista de Crédito
 - Coleta de informações financeiras (renda, emprego, despesas, dependentes, dívidas).
 - Cálculo e atualização automática do score.
 - Explicação detalhada do novo score e variação.
 - Oferecimento de novo pedido de aumento de limite.
 
-### 4. Câmbio
+### 4.💱 Câmbio
 - Consulta de cotações de moedas estrangeiras.
 - Conversão de valores entre moedas.
 - Apresentação de fontes confiáveis para cotação.
