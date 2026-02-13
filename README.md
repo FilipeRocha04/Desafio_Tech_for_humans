@@ -276,7 +276,6 @@ STREAMLIT_HOST=0.0.0.0
 
 
 ```
-
 ### 5. Execute a interface web
 
 ```sh
@@ -300,7 +299,7 @@ python src/graph/graph.py
 
 ---
 
-## 🧪 8. Como Testar
+## 8. Como Testar
 
 Para iniciar o atendimento, é necessário realizar a autenticação do cliente.
 
@@ -315,33 +314,32 @@ Você pode utilizar os dados abaixo para teste:
 
 ## Exemplos de Uso
 
-### Consulta de Limite
-
-**Cliente:** "qual meu score atual?"
-> **Sistema:** "Seu score de crédito é 339. Como posso ajudá-lo mais hoje?"
-
-
+### 📊 Consulta de Limite
+ 
+** Cliente:**👨‍💼 "qual meu score atual?"
+> **Sistema:**🏦"Seu score de crédito é 339. Como posso ajudá-lo mais hoje?"
 
 
-> **Cliente:** "Qual meu limite atual?"  
-> **Sistema:** "Limite disponível: R$ 5.000,00. Score atual: 650. Deseja solicitar aumento?"
+
+
+> **Cliente:** 👨‍💼"Qual meu limite atual?"  
+> **Sistema:** 🏦"Limite disponível: R$ 5.000,00. Score atual: 650. Deseja solicitar aumento?"
 
 ### Solicitação de Aumento
 
-> **Cliente:** "Quero aumentar para 10.000"  
-> **Sistema:** "Solicitação aprovada! Novo limite: R$ 10.000,00."
+> **Cliente:** 👨‍💼"Quero aumentar para 10.000"  
+> **Sistema:** 🏦"Solicitação aprovada! Novo limite: R$ 10.000,00."
 
 ### Entrevista de Crédito
 
-> **Cliente:** "Quero melhorar meu score"  
-> **Sistema:**  
-> "Qual é a sua renda mensal aproximada?"  
+> **Cliente:** 👨‍💼"Quero melhorar meu score"  
+> **Sistema:** 🏦"Qual é a sua renda mensal aproximada?"  
 > ... (perguntas sequenciais) ...  
 > "Score atualizado: 800. Gostaria de tentar solicitar um aumento de limite com este novo score?"
 
 ### Cotação de Câmbio
 
-> **Cliente:** "Quanto tá o dólar?"  
-> **Sistema:** "O dólar está cotado a R$ 5,45. Posso ajudar com mais alguma conversão?"
+> **Cliente:** 👨‍💼"Quanto tá o dólar?"  
+> **Sistema:** 🏦"O dólar está cotado a R$ 5,45. Posso ajudar com mais alguma conversão?"
 
 
