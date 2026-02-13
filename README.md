@@ -165,24 +165,53 @@ O **handoff** é o mecanismo que permite a transferência fluida do atendimento 
 
 ---
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```
-├── .env
-├── README.md
-├── requirements.txt
-├── streamlit_app.py
-├── config/
-├── data/
-│   ├── clientes.csv
-│   ├── score_limite.csv
-│   └── solicitacoes_aumento_limite.csv
-├── src/
-│   ├── agents/
-│   ├── graph/
-│   ├── prompts/
-│   ├── tools/
-│   └── utils/
+DESAFIO_TECH_FOR_HUMANS/
+│
+├── 📁 config/                  # Configurações globais do sistema
+│
+├── 📁 data/                    # Persistência em CSV
+│   ├── clientes.csv            # Base de clientes
+│   ├── score_limite.csv        # Tabela de score x limite
+│   └── solicitacoes_aumento_limite.csv  # Histórico de solicitações
+│
+├── 📁 src/
+│   │
+│   ├── 📁 agents/              # Agentes especializados
+│   │   ├── triagem.py          # Autenticação e roteamento inicial
+│   │   ├── credito.py          # Consulta e aumento de limite
+│   │   ├── entrevista.py       # Reavaliação de score
+│   │   └── cambio.py           # Conversão de moedas
+│   │
+│   ├── 📁 graph/               # Orquestração LangGraph
+│   │   └── graph.py            # Construção do fluxo multiagente
+│   │
+│   ├── 📁 prompts/             # Prompts estruturados (separação de contexto)
+│   │   ├── triagem.md
+│   │   ├── credito.md
+│   │   ├── entrevista.md
+│   │   ├── cambio.md
+│   │   └── supervisor.md
+│   │
+│   ├── 📁 tools/               # Ferramentas auxiliares
+│   │   ├── triagem.py
+│   │   ├── credito.py
+│   │   ├── entrevista.py
+│   │   └── tavily.py           # Integração com API externa
+│   │
+│   └── 📁 utils/               # Funções utilitárias
+│
+├── 📁 venv/                    # Ambiente virtual (não versionado)
+│
+├── .env                        # Variáveis de ambiente
+├── .env.example                # Modelo de configuração
+├── .gitignore                  # Arquivos ignorados pelo Git
+├── requirements.txt            # Dependências do projeto
+├── streamlit_app.py            # Interface Web (Streamlit)
+└── README.md                   # Documentação principal
+
 ```
 
 ---
