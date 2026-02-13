@@ -17,6 +17,18 @@ O **Banco Ágil** é um sistema bancário digital inteligente, construído sobre
 - **Tavily API**: Consulta de cotações de moedas em tempo real.
 - **Python-dotenv**: Gerenciamento de variáveis de ambiente e chaves de API.
 
+  <p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-Framework-black?logo=chainlink&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-Orchestration-purple" />
+  <img src="https://img.shields.io/badge/OpenAI-GPT--4o-green?logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-Interface-red?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-Data-blue?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tavily-API-orange" />
+</p>
+
+---
+
 ---
 
 ## Arquitetura Multiagente & Handoff
