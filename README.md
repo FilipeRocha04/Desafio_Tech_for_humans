@@ -187,20 +187,11 @@ O **handoff** é o mecanismo que permite a transferência fluida do atendimento 
 
 ---
 
-## 🚀 Instalação e Execução
-
-### 1. Clone o repositório
-
-```sh
-git clone https://github.com/FilipeRocha04/Desafio_Tech_for_humans.git
-cd Desafio_Tech_for_humans
-```
-
 # Banco Ágil - Sistema Multi-Agente
 
 ---
 
-## Instalação e Execução
+## 🚀 Instalação e Execução
 
 ### 1. Clone o repositório
 
