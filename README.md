@@ -304,10 +304,10 @@ Você pode utilizar os dados abaixo para teste:
 
 ## Exemplos de Uso
 
-### 📊 Consulta de Limite
+### 📊 Consulta de Score e Limite
 
-> **Cliente:** 👨‍💼"Qual meu limite atual?"  
-> **Sistema:** 🏦"Limite disponível: R$ 5.000,00. Score atual: 650. Deseja solicitar aumento?"
+> **Cliente:** 👨‍💼"Qual meu score atual?"  
+> **Sistema:** 🏦"Seu score de crédito é 339.Como posso ajuda-lo mais hoje?"
 
 > **Cliente:** 👨‍💼"Qual meu limite atual?"  
 > **Sistema:** 🏦"Limite disponível: R$ 5.000,00. Score atual: 650. Deseja solicitar aumento?"
