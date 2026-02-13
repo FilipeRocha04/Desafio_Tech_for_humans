@@ -216,7 +216,7 @@ DESAFIO_TECH_FOR_HUMANS/
 
 ---
 
-# Banco Ágil - Sistema Multi-Agente
+# Banco Ágil - Sistema Multiagente
 
 ---
 
