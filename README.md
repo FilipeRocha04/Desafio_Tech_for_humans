@@ -7,21 +7,21 @@ O **Banco Ágil** é um sistema bancário digital inteligente, construído sobre
 
 ## Tecnologias Utilizadas
   <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-Framework-black?logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-Orchestration-purple" />
-  <img src="https://img.shields.io/badge/OpenAI-GPT--4o-green?logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-Interface-red?logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-Data-blue?logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tavily-API-orange" />
+<img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-Framework-black?logo=chainlink&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-Orchestration-purple" />
+<img src="https://img.shields.io/badge/OpenAI-GPT--4o-green?logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Streamlit-Interface-red?logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-Data-blue?logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Tavily-API-orange" />
 </p>
-- **LangChain**: Framework para construção de agentes LLM e integração com ferramentas externas.
-- **LangGraph**: Orquestração de fluxos multiagente, roteamento dinâmico e controle de estado conversacional.
-- **OpenAI GPT-4o**: LLM principal para raciocínio, geração de respostas e decisões de roteamento.
-- **Streamlit**: Interface web interativa para chat com o sistema.
-- **Pandas**: Manipulação de dados e persistência em CSV.
-- **Tavily API**: Consulta de cotações de moedas em tempo real.
-- **Python-dotenv**: Gerenciamento de variáveis de ambiente e chaves de API.
+**LangChain**: Framework para construção de agentes LLM e integração com ferramentas externas.
+**LangGraph**: Orquestração de fluxos multiagente, roteamento dinâmico e controle de estado conversacional.
+**OpenAI GPT-4o**: LLM principal para raciocínio, geração de respostas e decisões de roteamento.
+**Streamlit**: Interface web interativa para chat com o sistema.
+**Pandas**: Manipulação de dados e persistência em CSV.
+**Tavily API**: Consulta de cotações de moedas em tempo real.
+**Python-dotenv**: Gerenciamento de variáveis de ambiente e chaves de API.
 
 
 
