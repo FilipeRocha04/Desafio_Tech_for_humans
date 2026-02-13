@@ -322,7 +322,7 @@ Você pode utilizar os dados abaixo para teste:
 > **Cliente:** 👨‍💼"Quero melhorar meu score"  
 > **Sistema:** 🏦"Qual é a sua renda mensal aproximada?"  
 > ... (perguntas sequenciais) ...  
-> "Score atualizado: 800. Gostaria de tentar solicitar um aumento de limite com este novo score?"
+
 
 ### Cotação de Câmbio
 
