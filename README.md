@@ -1,4 +1,4 @@
-# Banco Ágil - Sistema Multi-Agente
+# Banco Ágil - Sistema Multiagente
 
 
 ## 📄Visão Geral
