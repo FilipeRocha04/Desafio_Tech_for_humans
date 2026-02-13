@@ -26,6 +26,75 @@ O **Banco Ágil** é um sistema bancário digital inteligente, construído sobre
 
 ---
 
+## Arquitetura do Sistema Banco Ágil
+
+```plaintext
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 Usuário                                     │
+│                         (Web/Terminal Interface)                            │
+└───────────────┬──────────────────────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                             Interface Streamlit                             │
+│                (Chat Web) / CLI (src/graph/graph.py)                        │
+└───────────────┬──────────────────────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                             LangGraph (Orquestrador)                        │
+│        - Gerencia o fluxo conversacional e o roteamento entre agentes        │
+│        - Controla contexto, histórico e handoff                              │
+└───────────────┬──────────────────────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                             Supervisor (LLM)                                │
+│        - Analisa intenção do usuário                                        │
+│        - Decide qual agente especializado assume o atendimento               │
+│        - Justifica decisões de roteamento                                   │
+└─────┬─────────┬───────────────┬────────────────────┬────────────────────────┘
+      │         │               │                    │
+      ▼         ▼               ▼                    ▼
+┌──────────┐ ┌───────────┐ ┌──────────────┐ ┌─────────────────┐
+│ Triagem  │ │  Crédito  │ │  Entrevista  │ │     Câmbio      │
+│  Agent   │ │   Agent   │ │   Agent      │ │     Agent       │
+└────┬─────┘ └────┬──────┘ └─────┬────────┘ └────────┬────────┘
+     │           │              │                   │
+     │           │              │                   │
+     │           │              │                   │
+     ▼           ▼              ▼                   ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              Ferramentas/Tools                              │
+│   - Acesso a dados locais (clientes.csv, score_limite.csv, etc)              │
+│   - Integração com APIs externas (OpenAI, Tavily)                            │
+│   - Persistência de histórico de solicitações                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Fluxo Resumido
+
+1. **Usuário** interage via Web (Streamlit) ou CLI.
+2. **LangGraph** recebe a mensagem e mantém o contexto.
+3. **Supervisor** (LLM) interpreta a intenção e faz o roteamento.
+4. O agente especializado (Triagem, Crédito, Entrevista, Câmbio) assume o atendimento.
+5. Agentes usam **ferramentas** para acessar dados locais (CSV) ou APIs externas (OpenAI, Tavily).
+6. Se necessário, ocorre **handoff** automático e transparente entre agentes, mantendo o contexto.
+7. Resposta é enviada ao usuário.
+
+---
+
+**Principais tecnologias e arquivos:**
+- `streamlit_app.py`: Interface web.
+- `src/graph/graph.py`: Orquestração CLI.
+- `src/agents/`: Implementação dos agentes.
+- `src/tools/`: Ferramentas de integração (dados, APIs).
+- `data/*.csv`: Bases de dados locais.
+- `.env`: Configurações e chaves de API.
+- **APIs externas**: OpenAI (LLM), Tavily (câmbio).
+
+---
+
 ## Arquitetura Multiagente & Handoff
 
 ### Estrutura Multiagente
