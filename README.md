@@ -306,8 +306,8 @@ Você pode utilizar os dados abaixo para teste:
 
 ### 📊 Consulta de Limite
 
-> **Cliente:** 👨‍💼"qual meu score atual?"
-> **Sistema:** 🏦"Seu score de crédito é 339. Como posso ajudá-lo mais hoje?"
+> **Cliente:** 👨‍💼"Qual meu limite atual?"  
+> **Sistema:** 🏦"Limite disponível: R$ 5.000,00. Score atual: 650. Deseja solicitar aumento?"
 
 > **Cliente:** 👨‍💼"Qual meu limite atual?"  
 > **Sistema:** 🏦"Limite disponível: R$ 5.000,00. Score atual: 650. Deseja solicitar aumento?"
