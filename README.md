@@ -187,7 +187,7 @@ O **handoff** é o mecanismo que permite a transferência fluida do atendimento 
 
 ---
 
-## Instalação e Execução
+## 🚀 Instalação e Execução
 
 ### 1. Clone o repositório
 
@@ -230,9 +230,32 @@ Recomendado para evitar conflitos de dependências:
 pip install -r requirements.txt
 ```
 
+
+
 ### 4. Configure as variáveis de ambiente
 
-Edite o arquivo `.env` com suas chaves de API e parâmetros de configuração.
+crie  o arquivo `.env` com suas chaves de API e parâmetros de configuração.
+```sh
+
+# Chaves de API
+OPENAI_API_KEY=sua-chave-openai-aqui
+
+TAVILY_API_KEY=sua-chave-tavily-aqui
+
+# Configuração do LLM
+PROVIDER=openai
+MODEL_NAME=gpt-4o-mini
+TEMPERATURE=0
+
+# Configuração de Autenticação
+MAX_AUTH_ATTEMPTS=2
+
+# Configuração do Streamlit
+STREAMLIT_PORT=8501
+STREAMLIT_HOST=0.0.0.0
+
+
+```
 
 ### 5. Execute a interface web
 
@@ -249,7 +272,7 @@ python src/graph/graph.py
 ```
 
 
-### 5. (Opcional) Execute no terminal
+### 7. (Opcional) Execute no terminal
 
 ```sh
 python src/graph/graph.py
@@ -257,7 +280,7 @@ python src/graph/graph.py
 
 ---
 
-## 🧪 6. Como Testar
+## 🧪 8. Como Testar
 
 Para iniciar o atendimento, é necessário realizar a autenticação do cliente.
 
