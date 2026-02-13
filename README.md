@@ -257,9 +257,28 @@ python src/graph/graph.py
 
 ---
 
+## 🧪 6. Como Testar
+
+Para iniciar o atendimento, é necessário realizar a autenticação do cliente.
+
+Você pode utilizar os dados abaixo para teste:
+
+### 🔐 Dados de Autenticação
+
+- **CPF:** `55566677788`
+- **Data de Nascimento:** `20/12/1980`
+
+> 💡 Alternativamente, consulte o arquivo `data/clientes.csv` para visualizar outros clientes disponíveis para teste.
+
 ## Exemplos de Uso
 
 ### Consulta de Limite
+
+**Cliente:** "qual meu score atual?"
+> **Sistema:** "Seu score de crédito é 339. Como posso ajudá-lo mais hoje?"
+
+
+
 
 > **Cliente:** "Qual meu limite atual?"  
 > **Sistema:** "Limite disponível: R$ 5.000,00. Score atual: 650. Deseja solicitar aumento?"
